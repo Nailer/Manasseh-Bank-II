@@ -8,14 +8,12 @@ const CardDeal = () => {
     <section className={`${layout.section}`}>
       <div className={`${layout.sectionInfo}`}>
         <h2 className={`${styles.heading2}`}>
-          Find a better card deal
+          We make your finances sour high
           <br className="sm:block hidden" />
-          in few easy steps.
+          with few easy steps.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Find your perfect credit card in 3 easy steps with our comparison
-          tool. Compare offers, choose the best fit, and upgrade your finances
-          now.
+        We set the gears of your finances in your hands by offering 0% commission in transaction, periodic increase in capital, secure and end-to-end encrypted information and transaction.
         </p>
         <Button styles="mt-10" />
       </div>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { navLinks } from "../constants";
+import "../css/navbar.css"
 import { close, logo, menu } from "../assets";
 const Navbar = () => {
   // toggle state for menu
@@ -7,8 +8,9 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
       {/* logo */}
-      <img src={logo} alt="logo" className="w-[280px] h-[60px]" />
+      {/* <img src={logo} alt="logo" className="w-[280px] h-[60px]" /> */}
       {/* nav links */}
+      <h1 className="name">Manasseh Bank</h1>
       <ul className=" list-none sm:flex hidden justify-end items-center flex-1">
         {/* mapping through navLinks to show each individual item */}
         {navLinks.map((nav, index) => (
@@ -20,7 +22,7 @@ const Navbar = () => {
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
-      </ul>
+      </ul> 
       {/* menu for only smaller devices */}
       <div className=" sm:hidden flex flex-1  justify-end items-center z-50">
         <img

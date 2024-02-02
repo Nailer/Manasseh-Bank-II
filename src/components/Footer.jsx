@@ -1,6 +1,7 @@
 import React from "react";
 import { logo } from "../assets";
 import styles from "../style";
+import "../css/navbar.css"
 import { footerLinks, socialMedia } from "../constants";
 
 // getting the current year
@@ -11,13 +12,9 @@ const Footer = () => {
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
         <div className="flex flex-1 flex-col justify-start mr-10">
-          <img
-            src={logo}
-            alt=""
-            className="w-[360px] h-[60px] object-contain"
-          />
+          <h1 className="name ">Manasseh Bank</h1>
           <p className={`${styles.paragraph} max-w-[350px] mt-3`}>
-            A new way to make the payments easy, reliable and secure.
+            A new way to banking, reliable and secure.
           </p>
         </div>
 
@@ -64,7 +61,7 @@ const Footer = () => {
        md:flex-row flex-col pt-6 border-t-[1px] border-t-[#403d4e]"
       >
         <p className="text-white text-[15px] font-normal font-poppins leading-5">
-          Copyright ©{year} ProsperityBank. All rights reserved.
+          Copyright ©{year} Manasseh Bank. All rights reserved.
         </p>
         <div className="flex flex-row md:mt-0 mt-6">
           {/* mapping through socialMedia which has 4 

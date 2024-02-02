@@ -3,19 +3,19 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Join Us",
   },
   {
     id: "features",
-    title: "Features",
+    title: "Testimonies",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Products",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "About Us",
   },
 ];
 
@@ -25,21 +25,21 @@ export const features = [
     icon: star,
     title: "Rewards",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "You get charged 0% commission when you make transactions during your first three months.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We have proactive steps set to make sure your informations and transactions are secure.",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Balance Transfer",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "As fast as light, that fast is Manasseh when you transfer from your balance.",
   },
 ];
 
@@ -47,25 +47,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "I can't believe that this could be this effective. Even though i use their services on their website, they have been proofing their worth.",
+    name: "Anna Jensen",
+    title: "Member",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Money makes your life easier. If you're lucky to have it, you're lucky, but the real luck is to multiply it.",
     name: "Steve Mark",
-    title: "Founder & Leader",
+    title: "Assistant Marketer",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "It is usually people in the money business, finance, and international trade that are really rich, join Manasseh to be among the rich ones.",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    title: "Board Member",
     img: people03,
   },
 ];
@@ -74,17 +74,17 @@ export const stats = [
   {
     id: "stats-1",
     title: "Active Users",
-    value: "50K+",
+    value: "150K+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
+    title: "Trusted Companies",
     value: "300+",
   },
   {
     id: "stats-3",
     title: "Transaction",
-    value: "₹2B+",
+    value: "$311M+",
   },
 ];
 
@@ -97,7 +97,7 @@ export const footerLinks = [
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "How it Workffs",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {

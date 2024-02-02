@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "../style";
+import "../css/hero.css"
 import { discount, robot } from "../assets";
+import logo from "../assets/logoUse.png"
 import GetStarted from "./GetStarted";
 const Hero = () => {
   return (
@@ -24,7 +26,7 @@ const Hero = () => {
           />
           <p className={`${styles.paragraph} discount`}>
             <span className="text-white">20%</span> Discount For{" "}
-            <span className="text-white">1 Month</span> Account
+            <span className="text-white">3 Month</span> Account
           </p>
         </div>
         {/* main heading */}
@@ -34,7 +36,7 @@ const Hero = () => {
             font-semibold ss-text-[72px] text-[52px] ss:leading-[90px] leading-[75px]"
           >
             The Next <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Generation</span>{" "}
+            <span className="text-gradient">Banking</span>{" "}
           </h1>
           {/* get started button */}
           <div className="ss:flex hidden md:mr-4 mr-0">
@@ -46,13 +48,11 @@ const Hero = () => {
             font-semibold ss-text-[65px] text-[52px] ss:leading-[90px] leading-[75px]"
         >
           {" "}
-          Payment Method
+          Generation
         </h1>
 
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our expert's team considers factors such as annual interest rates and
-          annual charges to find the best credit cards for you. This helps
-          ensure you get a credit card that fits your needs.
+          <b style={{color:"yellow "}}>Manasseh</b> is not just a bank, but also an investment company, providing dual services that sets us apart from our competitors. Our reach is not limited to our immediate locality, as we operate on a national scale, bringing our unique services to every corner of U.S.A.
         </p>
       </div>
 
@@ -61,9 +61,9 @@ const Hero = () => {
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <img
-          src={robot}
+          src={logo}
           alt="biling"
-          className="w-[100%] h-[100%] relative z-[5]"
+          className="w-[100%] h-[100%] relative z-[5] logo-img"
         />
 
         {/* Gradient divs */}

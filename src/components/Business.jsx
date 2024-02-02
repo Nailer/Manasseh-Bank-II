@@ -40,9 +40,7 @@ const Business = () => {
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           {" "}
-          With the right credit card, you can improve your financial life by
-          building credit, earning rewards and saving money. But with hundreds
-          of credit cards on the market.
+          We believe in the power of innovation and the potential of money, which is why Manasseh offer a unique spending-reward where the more you spend, the more there's an increase in capital
         </p>
 
         <Button styles="mt-10" />
